@@ -1,12 +1,12 @@
 .doc-title {
+  margin-top: 10px;
+  margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
   font-size: 2rem;
 }
 
-.text-wrap {
+.doc-author {
   font-size: 1.6rem;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
