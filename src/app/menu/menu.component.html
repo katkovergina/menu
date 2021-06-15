@@ -1,0 +1,20 @@
+<div class="wrap">
+  <nav class="nav-bar">
+    <ul class="list">
+
+      <li routerLinkActive="active">
+        <a [routerLink]="['/docs']">Documents</a>
+      </li>
+      <li routerLinkActive="active">
+        <a [routerLink]="['/imgs']">Images</a>
+      </li>
+      <li routerLinkActive="active">
+        <a [routerLink]="['/charts']">Charts</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="view-bar">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+

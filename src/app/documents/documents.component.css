@@ -1,0 +1,12 @@
+.doc-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.text-wrap {
+  font-size: 1.6rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}

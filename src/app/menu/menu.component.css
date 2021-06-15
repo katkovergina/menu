@@ -1,0 +1,24 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 0 1rem;
+}
+
+.nav-bar {
+  width: 25%;
+  border-right: .5px solid #ccc;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: 20px;
+}

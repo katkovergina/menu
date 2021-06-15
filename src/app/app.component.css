@@ -1,0 +1,24 @@
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #353D96;
+  padding: .6rem 10px;
+}
+
+.header-title {
+  font-weight: normal;
+  color: #ECF7FA;
+
+}
+
+.btn-change-mode {
+  width: 7%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ECF7FA;
+  color: #353D96;
+  text-transform: uppercase;
+}
