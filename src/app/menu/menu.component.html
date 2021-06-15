@@ -2,19 +2,45 @@
   <nav class="nav-bar">
     <ul class="list">
 
-      <li routerLinkActive="active">
-        <a [routerLink]="['/docs']">Documents</a>
-      </li>
-      <li routerLinkActive="active">
-        <a [routerLink]="['/imgs']">Images</a>
-      </li>
-      <li routerLinkActive="active">
-        <a [routerLink]="['/charts']">Charts</a>
-      </li>
+      <ul routerLinkActive="active">
+        <div>
+          <a [routerLink]="['/docs']">Documents</a>
+        </div>
+
+        <li>
+          <a [routerLink]="['../child-doc-about']">The Little Prince</a>
+
+        </li>
+        <li>
+          <a [routerLink]="['/child-bio-author']">Antoine de Saint-Exupéry</a>
+        </li>
+
+      </ul>
+      <ul routerLinkActive="active">
+        <div>
+          <a [routerLink]="['/imgs']">Images</a>
+        </div>
+        <li>
+          <a [routerLink]="['/child-imgs-prince']">Illustration</a>
+        </li>
+        <li>
+          <a [routerLink]="['/child-imgs-antoine']">Antoine de Saint-Exupéry</a>
+        </li>
+      </ul>
+      <ul routerLinkActive="active">
+        <div>
+          <a [routerLink]="['/charts']">Charts</a>
+        </div>
+        <li>
+          <a [routerLink]="['/child-bio-author']">Antoine de Saint-Exupéry</a>
+        </li>
+        <li>
+          <a [routerLink]="['/child-bio-author']">Antoine de Saint-Exupéry</a>
+        </li>
+      </ul>
     </ul>
   </nav>
   <div class="view-bar">
     <router-outlet></router-outlet>
   </div>
 </div>
-

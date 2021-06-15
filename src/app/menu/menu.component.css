@@ -1,13 +1,18 @@
 .wrap {
   display: flex;
-  justify-content: space-between;
+
   height: 100vh;
   padding: 0 1rem;
 }
 
 .nav-bar {
-  width: 25%;
+
+  min-width: 25rem;
   border-right: .5px solid #ccc;
+}
+.view-bar {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -16,9 +21,16 @@ a {
 
 .list {
   font-size: 1.2rem;
-  list-style: none;
 }
 
 .list li {
-  margin-bottom: 20px;
+  padding-left: 2ы0px;
+  margin-bottom: 10px;
 }
+
+.list div{
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
