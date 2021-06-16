@@ -1,6 +1,33 @@
-<div class="header">
+<div class="header" [ngClass]="{light: !darkMode, dark: darkMode}" >
   <h2 class="header-title">Document Explorer</h2>
-  <button class="btn-change-mode">Change mode</button>
+  <button (click) = "changeMode()" class="btn-change-mode">{{buttonTitle}} </button>
 </div>
 
-<router-outlet></router-outlet>
+<div [ngClass]="{'content-light': !darkMode, 'content-dark': darkMode}">
+  <router-outlet></router-outlet>
+</div>
+
+
+
+<!--import { Component} from '@angular/core';-->
+
+<!--@Component({-->
+<!--selector: 'app-root',-->
+<!--template: `-->
+<!--<div [ngClass]="{white: isChecked, black: !isChecked}">-->
+
+<!--<h1>AppModule</h1>-->
+<!--<data-comp></data-comp>-->
+<!--<input type="checkbox" id="scales" name="scales"-->
+<!--(input)="isChecked = !isChecked">-->
+<!--<label for="scales">Сменить тему</label>-->
+
+<!--</div>`,-->
+<!--styleUrls: ['./app.component.css']-->
+
+<!--})-->
+<!--export class AppComponent {-->
+
+<!--isChecked = false-->
+
+<!--}-->

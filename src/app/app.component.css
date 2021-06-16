@@ -7,6 +7,26 @@
   padding: .6rem 10px;
 }
 
+.light {
+  background-color: #5B43FA;
+}
+
+.dark {
+  background-color: #010BA3;
+}
+
+.content-dark {
+  background-color: #61606B;
+  color: #F1EDEE;
+}
+
+.content-light {
+  background-color: #F1EDEE;
+  color: #61606B;
+}
+
+
+
 .header-title {
   font-weight: normal;
   color: #ECF7FA;
@@ -14,7 +34,7 @@
 }
 
 .btn-change-mode {
-  width: 7%;
+  width: 9%;
   height: 30px;
   border: none;
   border-radius: 10px;
